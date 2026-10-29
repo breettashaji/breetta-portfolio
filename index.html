@@ -3,9 +3,199 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my portfolio - breetta</title>
+    <title>Breetta — Student, Dancer, Reader</title>
+    <meta name="description" content="A personal portfolio celebrating grace, creativity, dance, and literature.">
+    <!-- Google Fonts: Cormorant Garamond for headings, Inter for body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <!-- Navigation Bar -->
+    <header class="site-header">
+        <div class="nav-container">
+            <a href="#home" class="wordmark">BREETTA</a>
+            <nav class="site-nav" aria-label="Main Navigation">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About Me</a></li>
+                    <li><a href="#passion" class="nav-link">My Passion</a></li>
+                    <li><a href="#reading" class="nav-link">Reading</a></li>
+                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-action">
+                <a href="#contact" class="btn btn-outline">LET'S CONNECT</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-bg-overlay"></div>
+            <div class="hero-content">
+                <span class="hero-eyebrow">BREETTA</span>
+                <h1 class="hero-title">DANCE WITH GRACE.<br><span>LIVE WITH PASSION.</span></h1>
+                <p class="hero-subtitle">A student, a dreamer, and a soul that finds its rhythm in dance and its inspiration in books.</p>
+                <div class="hero-buttons">
+                    <a href="#passion" class="btn btn-primary">DISCOVER MY WORLD</a>
+                    <a href="#about" class="btn btn-secondary">GET TO KNOW ME</a>
+                </div>
+            </div>
+            <div class="scroll-indicator" aria-hidden="true">
+                <span>Scroll</span>
+                <div class="scroll-line"></div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">STUDENT • DANCER • BOOK LOVER</span>
+                    <h2 class="section-title">A LITTLE ABOUT ME</h2>
+                </div>
+                <div class="about-grid">
+                    <div class="about-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=1000&q=80" alt="Elegance and contemplation" class="about-img">
+                        <div class="about-quote-box">
+                            <blockquote>“To dance is to be out of yourself. Larger, more beautiful, more powerful.”</blockquote>
+                        </div>
+                    </div>
+                    <div class="about-text-content">
+                        <p class="lead-text">Hi, I'm Breetta! I'm a student who loves exploring new ideas, expressing myself through dance, and getting lost in the pages of a good book.</p>
+                        <p>Dance gives me the freedom to express what words cannot, while reading opens doors to new worlds, perspectives, and possibilities. I'm always learning, growing, and discovering new ways to express who I am.</p>
+                        <div class="about-signature">Breetta</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- My Passion Section -->
+        <section id="passion" class="passion-section">
+            <div class="container">
+                <div class="section-header center">
+                    <span class="section-tag">ART & EXPRESSION</span>
+                    <h2 class="section-title">MY HEART BEATS IN RHYTHM.</h2>
+                </div>
+                <div class="passion-hero-card">
+                    <div class="passion-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1547153760-18fc86324498?auto=format&fit=crop&w=1400&q=80" alt="Graceful dancer in motion" class="passion-img">
+                    </div>
+                    <div class="passion-content-box">
+                        <h3>The Art of Movement</h3>
+                        <p>Dance is my truest language. Through every movement, posture, and rhythm, I explore the boundless dimensions of creativity and emotion. It is a continuous journey of discipline, grace, and authentic self-expression.</p>
+                        <div class="highlight-quote">
+                            <p>“When words fall silent, movement speaks.”</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- My Other Love Section -->
+        <section id="reading" class="reading-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">LITERARY REFLECTIONS</span>
+                    <h2 class="section-title">LOST IN STORIES, FOUND IN WORDS.</h2>
+                </div>
+                <div class="reading-grid">
+                    <div class="reading-text">
+                        <p class="lead-text">Reading is my sanctuary. Between the covers of a book, time slows down, and imagination takes flight.</p>
+                        <p>Each story introduces me to different perspectives, deepens my empathy, and fuels my creative spirit. Whether it is classic literature, poetry, or contemporary fiction, books provide endless inspiration for my everyday life.</p>
+                        <ul class="reading-features">
+                            <li>Curating a personal bookshelf</li>
+                            <li>Finding poetry in everyday moments</li>
+                            <li>Exploring imaginative worlds</li>
+                        </ul>
+                    </div>
+                    <div class="reading-visuals">
+                        <div class="reading-img-card primary-card">
+                            <img src="https://images.unsplash.com/photo-1495640388908-05fa85288e61?auto=format&fit=crop&w=800&q=80" alt="Cozy reading setup with books and warm lighting">
+                        </div>
+                        <div class="reading-img-card secondary-card">
+                            <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=600&q=80" alt="Open book pages">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Personal Gallery Section -->
+        <section id="gallery" class="gallery-section">
+            <div class="container">
+                <div class="section-header center">
+                    <span class="section-tag">VISUAL JOURNAL</span>
+                    <h2 class="section-title">FRAGMENTS OF MY WORLD.</h2>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item item-1">
+                        <img src="https://images.unsplash.com/photo-1518834195013-e5c46726aa1e?auto=format&fit=crop&w=800&q=80" alt="Dance posture silhouette">
+                        <div class="gallery-overlay"><span>Grace & Form</span></div>
+                    </div>
+                    <div class="gallery-item item-2">
+                        <img src="https://images.unsplash.com/photo-1524578271613-d550eacf6090?auto=format&fit=crop&w=800&q=80" alt="Quiet reading moment">
+                        <div class="gallery-overlay"><span>Quiet Pages</span></div>
+                    </div>
+                    <div class="gallery-item item-3">
+                        <img src="https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=800&q=80" alt="Artistic portrait vibe">
+                        <div class="gallery-overlay"><span>Expression</span></div>
+                    </div>
+                    <div class="gallery-item item-4">
+                        <img src="https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=800&q=80" alt="Cozy literary aesthetic">
+                        <div class="gallery-overlay"><span>Imagination</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Personal Quote Section -->
+        <section class="quote-section">
+            <div class="container center">
+                <div class="quote-wrapper">
+                    <span class="quote-symbol">“</span>
+                    <p class="featured-quote">Let your dreams guide you, let your passion move you, and let every page inspire a new beginning.</p>
+                    <span class="quote-author">— Breetta</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container center">
+                <div class="section-header center">
+                    <span class="section-tag">GET IN TOUCH</span>
+                    <h2 class="section-title">LET'S CONNECT.</h2>
+                    <p class="contact-subtitle">I'd love to connect, share inspiration, and meet people who appreciate creativity, learning, and self-expression.</p>
+                </div>
+                <div class="contact-actions">
+                    <a href="mailto:hello@breetta.portfolio" class="btn btn-primary">hello@breetta.portfolio</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-link">Instagram</a>
+                    <span class="separator">•</span>
+                    <a href="https://goodreads.com" target="_blank" rel="noopener noreferrer" class="social-link">Goodreads</a>
+                    <span class="separator">•</span>
+                    <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer" class="social-link">Pinterest</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <span class="footer-logo">BREETTA.</span>
+            <p class="footer-tagline">A LITTLE WORLD OF MY OWN.</p>
+            <p class="copyright">&copy; 2026 Breetta. All rights reserved.</p>
+        </div>
+    </footer>
+
 </body>
-</html>
+</html>git
